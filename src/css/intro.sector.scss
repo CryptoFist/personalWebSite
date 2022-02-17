@@ -5,6 +5,14 @@
   @include breakpoint(phablet) {
     padding-top: 40vw;
   }
+
+  animation-fill-mode: both;
+  animation-duration: 2000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-name: react-reveal-778458396415406-2;
+
   .div-wrap {
     @include display-flex-wrap;
     justify-content: space-between;

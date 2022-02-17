@@ -23,7 +23,7 @@ const Header = () => {
           </a>
 
           <a 
-            href="https://t.me/CryptoFist" 
+            href="https://t.me/CryptoFist1002" 
             target="_blank" 
             className="contact-link"
             rel="noopener"

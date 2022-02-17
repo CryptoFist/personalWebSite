@@ -6,6 +6,11 @@ const IntroSector = () => {
   return (
     <div className="intro-div">
       <div className="div-wrap">
+        { window.innerWidth <= 768 &&
+          <div className="div-avatar">
+            <img className="img-avatar" src={myAvatar} />
+          </div>
+        }
         <div className="div-bio">
           <p className="txt-bio">
           Experienced Full Stack Developer adept in all stages of advanced web development. <br/>
@@ -15,10 +20,11 @@ const IntroSector = () => {
           Able to effectively self-manage during independent projects, as well as collaborate in a team setting.
           </p>
         </div>
-
-        <div className="div-avatar">
-          <img className="img-avatar" src={myAvatar} />
-        </div>
+        { window.innerWidth > 768 &&
+          <div className="div-avatar">
+            <img className="img-avatar" src={myAvatar} />
+          </div>
+        }
       </div>
     </div>
   )

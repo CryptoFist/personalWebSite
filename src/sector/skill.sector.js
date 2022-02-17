@@ -61,12 +61,12 @@ const SkillSector = () => {
       </div>
 
       <div className="sub-skill-div">
-        <p className="txt-skill">HTML/CSS/SCSS</p>
+        <p className="txt-skill">HTML / CSS / SCSS</p>
         <p className="txt-experience">+6 years of experience</p>
       </div>
 
       <div className="sub-skill-div">
-        <p className="txt-skill">JavaScript/TypeScript</p>
+        <p className="txt-skill">JavaScript / TypeScript</p>
         <p className="txt-experience">+4 years of experience</p>
       </div>
     </div>

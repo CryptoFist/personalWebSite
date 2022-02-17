@@ -19,6 +19,11 @@ $font-size-sub-text: 20px;
 $font-size-title: 50px;
 $font-size-sub-title: 35px;
 
+$font-size-text-res: 5vw;
+$font-size-sub-text-res: 4vw;
+$font-size-title-res: 10vw;
+$font-size-sub-title-res: 8vw;
+
 p {
   margin: unset;
 }
@@ -59,6 +64,10 @@ p {
       @media (max-width: 768px) {
           @content;
       }
+  } @else if $point == mobile-m {
+    @media (max-width: 560px) {
+        @content;
+    }
   } @else if $point == mobile {
       @media (max-width: 500px) {
           @content;

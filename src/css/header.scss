@@ -1,0 +1,35 @@
+@import "./common.scss";
+.header {
+  .header-wrap {
+    padding: 30px 50px;
+    @include display-flex-wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: calc(100% - 100px);
+
+    background: #012033;
+    .img-logo {
+      width: 60px;
+      height: 60px;
+      
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    .txt-name {
+      text-align: center;
+      color: white;
+      font-size: 40px;
+      font-family: $font-fuzzy;
+      color: white;
+    }
+    .div-contact {
+      .contact-link {
+        margin: 0px 10px;
+        .img-contact {
+
+        }
+      }
+    }
+  }
+}

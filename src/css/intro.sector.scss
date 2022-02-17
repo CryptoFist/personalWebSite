@@ -1,0 +1,30 @@
+@import "./common.scss";
+
+.intro-div {
+  padding-top: 200px;
+  .div-wrap {
+    @include display-flex-wrap;
+    justify-content: space-between;
+    
+    .div-bio {
+      width: 50%;
+      @include display-flex-wrap-center;
+
+      .txt-bio {
+        font-size: $font-size-text;
+        font-family: $font-montserrat;
+        color: white;
+        text-align: start;
+      }
+    }
+
+    .div-avatar {
+      width: 40%;
+      .img-avatar {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 80%;
+      }
+    }
+  }
+}

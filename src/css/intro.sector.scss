@@ -2,6 +2,9 @@
 
 .intro-div {
   padding-top: 200px;
+  @include breakpoint(phablet) {
+    padding-top: 40vw;
+  }
   .div-wrap {
     @include display-flex-wrap;
     justify-content: space-between;
